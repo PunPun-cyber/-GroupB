@@ -75,6 +75,23 @@
             width: 100%;
             bottom: 0;
         }
+        .btn {
+            background-color: #6a4e3a;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .btn:hover {
+            background-color: #4b3f2f;
+        }
+        #creator {
+            padding-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -120,6 +137,15 @@
                 <p>อาณาจักรสุโขทัยเป็นสัญลักษณ์สำคัญในประวัติศาสตร์ไทย ที่ยืนยันถึงความสามารถในการสร้างสรรค์และพัฒนาระบบการปกครองและวัฒนธรรมที่ยั่งยืน</p>
             </div>
             <img src="Y0W6oPLAvTyIoz3fkAdu7RtUpcITHJdbsu1XdwO3.jpg" alt="อาณาจักรสุโขทัย" />
+        </section>
+
+        <!-- Button to scroll to creator section -->
+        <button class="btn" onclick="document.getElementById('creator').scrollIntoView({behavior: 'smooth'});">ผู้จัดทำ</button>
+
+        <!-- Creator Section -->
+        <section id="creator">
+            <h2>เกี่ยวกับผู้จัดทำ</h2>
+            <p>เว็บไซต์นี้สร้างขึ้นเพื่อเผยแพร่ข้อมูลเกี่ยวกับอาณาจักรสุโขทัย โดยเน้นการให้ความรู้เกี่ยวกับประวัติศาสตร์ที่สำคัญและมรดกทางวัฒนธรรมของอาณาจักรสุโขทัย</p>
         </section>
     </main>
     <footer>
